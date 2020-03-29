@@ -1,5 +1,5 @@
 [package]
-name = "clap_derive"
+name = "clap_derive-v3"
 version = "3.0.0-beta.1"
 edition = "2018"
 authors = [
@@ -12,8 +12,8 @@ include = [
 	"README.md"
 ]
 description = "Parse command line argument by defining a struct, derive crate."
-repository = "https://github.com/clap-rs/clap/tree/master/clap_derive"
-documentation = "https://docs.rs/clap_derive"
+repository = "https://github.com/poma/clap/tree/master/clap_derive"
+documentation = "https://docs.rs/clap_derive-v3"
 homepage = "https://clap.rs/"
 keywords = [
 	"clap",
@@ -43,7 +43,7 @@ heck = "0.3.0"
 proc-macro-error = "0.4.9"
 
 [dev-dependencies]
-clap = { path = "../", version = "3.0.0-beta.1" }
+clap = { package = "clap-v3", version = "3.0.0-beta.1" }
 trybuild = "1.0"
 rustversion = "1"
 version-sync = "0.8"

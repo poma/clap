@@ -1,3 +1,5 @@
+# !!! This is a fork of https://github.com/clap-rs/clap to publish v3 before it is published as official crate !!!
+
 # clap_derive
 
 Parse command line argument by defining a struct.  It combines [structopt](https://github.com/TeXitoi/structopt) and [clap](https://crates.io/crates/clap) into a single experience. This crate is used by clap, and not meant to be used directly by
